@@ -10,3 +10,5 @@ for j in range(w):
     print("Number is not supported")
   else:
     print(g,i)
+  f = open("Squares.txt","a")
+  f.write(str(i))
