@@ -6,3 +6,7 @@ for j in range(w):
   #formula = i^1/2
   print(i)
   g=(i**1/2)
+  if i > 30 :
+    print("Number is not supported")
+  else:
+    print(g,i)
