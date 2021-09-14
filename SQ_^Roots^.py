@@ -12,3 +12,7 @@ for j in range(w):
     print(g,i)
   f = open("Squares.txt","a")
   f.write(str(i))
+  f.write("-")
+  f.write(str(g))
+  f.write("\n")
+  f.close()
